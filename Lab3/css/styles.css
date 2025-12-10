@@ -1,0 +1,190 @@
+/* COGS3 studyBuddy specific styles go here. */
+
+#title {
+    background-color:#6D94C5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Delius';
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #F5EFE6;
+}
+
+h2 {
+    color: #F5EFE6;
+    font-family: 'Delius';
+    font-size: 1.5;
+    font-weight: bolder;
+}
+
+h3 {
+    font-family: 'Sour Gummy';
+    font-weight: bold;
+    color: #1B3C53;
+}
+
+p {
+    color: #234C6A;
+    font-family: 'Delius';
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0  0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Sour Gummy';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item {
+    padding: 0 18px;
+    font-family: 'Sour Gummy';
+    font-size: 1.5rem;
+}
+
+.navbar-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Download Button */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+    width: 80%;
+    /* z-index: -1;
+    position: absolute; */
+}
+
+/* Feature Section */
+#features {
+    padding: 7% 15%;
+    background-color: #F5EFE6;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #B7A3E3;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #6D94C5;
+}
+
+/* Testimonials Section */
+#testimonials {
+   text-align: center;
+   background-color: #6D94C5;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+em {
+    color: #F5EFE6;
+    font-family: 'Delius';
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* Press Section */
+#press {
+    background-color: #6D94C5;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+    background-color: #F5EFE6;
+}
+
+.pricing-header {
+    color: #1B3C53;
+    font-family: 'Sour Gummy';
+}
+
+.pricing-cost {
+    color: #456882;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+    background-color: #456882;
+}
+
+.card-header {
+    background-color: #f4e6d2;
+}
+
+.card-body {
+    background-color: #F5EFE6;
+}
+
+/* Call to Action Section */
+#cta {
+    background-color: #6D94C5;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Sour Gummy';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #F5EFE6;
+}
+
+/* Footer Section */
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #F5EFE6;
+    color: #1B3C53;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    font-size: x-large;
+}
+
+/* Media Query Section */
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
