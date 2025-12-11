@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+25&display=swap" rel="stylesheet">
+    
+    <!--Style CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/1a2712d3b3.js" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Wedding Planner</title>
+</head>
+<body>
+    <!--Title Section-->
+    <section id="title">
+    <!--Nav Bar-->
+        <div class="title-container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Wedding Planner</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarWeddingPlanner" 
+                aria-controls="navbarWeddingPlanner" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarWeddingPlanner">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="navbar-item">
+                            <a href="#title" class="nav-link">Home</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="#footer" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!--Title-->
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Wedding Seat Arrangment Guide</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Body Section-->
+    <section id="body">
+        <div class="body-container-fluid">
+            <!--Textbox output-->
+            <h2>
+                <i class="fa-solid fa-champagne-glasses"></i> Your seating arrangement 
+                <i class="fa-solid fa-champagne-glasses"></i>
+            </h2>
+            <div class="output-container">
+                <p id="seatingOutput"></p>
+            </div>
+
+            <!--Images-->
+            <div>
+                <img class="image-cake" src="images/cake_trans.jpg" alt="pixel cake image">
+            </div>
+            <div>
+                <img class="image-heart-1" src="images/heart_trans.jpg" alt="pixel heart image">
+            </div>
+            <div>
+                <img class="image-heart-2" src="images/heart_trans.jpg" alt="pixel heart image">
+            </div>
+            <div">
+                <img class="image-champagne-1" src="images/champagne_trans.jpg" alt="pixel champagne image">
+            </div>
+            <div>
+                <img class="image-champagne-2" src="images/champagne_trans.jpg" alt="pixel champagne image">
+            </div>
+            <div>
+                <img class="image-flower-1" src="images/flower_trans.jpg" alt="pixel flower image">
+            </div>
+            <div>
+                <img class="image-flower-2" src="images/flower_trans.jpg" alt="pixel flower image">
+            </div>
+            <div>
+                <img class="image-flower-3" src="images/flower_trans.jpg" alt="pixel flower image">
+            </div>
+        </div>
+    </section>
+    
+    <!--Footer-->
+    <footer id="footer">
+        <i class="social-icon fa-brands fa-square-facebook"></i>
+        <i class="social-icon fa-brands fa-square-instagram"></i>
+        <i class="social-icon fa-brands fa-square-x-twitter"></i>
+        <i class="social-icon fa-solid fa-envelope"></i>
+        
+        <p>Copyright 2025 Wedding Planner</p>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="index.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,260 @@
+
+/* Title Section */
+#title {
+    background-color: #d7ebeb;
+}
+
+.title-container-fluid {
+    padding: 2% 10%;
+}
+
+h1 {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    font-style: normal;
+    color: #6a76c6;
+}
+
+.container {
+    position: relative;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Jersey 25", sans-serif;
+    font-size: 3rem;
+}
+
+.navbar-item {
+    font-family: "Jersey 10", sans-serif;
+    font-size: 1.5rem;
+    padding: 0 12px;
+}
+
+.navbar-custom {
+    color: #5763b2;
+}
+
+/* Body Section */
+#body {
+    background-color: #d7ebeb;
+    min-height: 610px;
+    width: 100%;
+    padding: 2% 8%;
+    position: relative;
+}
+
+h2 {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    font-style: normal;
+    color: #919ad7;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.output-container {
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+#seatingOutput {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: normal;
+    color:#a1a8d7;
+    text-align: center;
+}
+
+/* Body Images */
+.image-cake {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+    max-width: 40%;
+    animation: cake-bounce 7s infinite;
+}
+
+.image-heart-1 {
+    width: 10%;
+    position: absolute;
+    top: 40px;
+    right: 5%;
+    max-width: 20%;
+    transform: rotate(10deg);
+    animation: heart-1-bounce 7s infinite;
+}
+
+.image-heart-2 {
+    width: 13%;
+    position: absolute;
+    top: 0;
+    right: 15%;
+    max-width: 20%;
+    transform: rotate(-10deg);
+    animation: heart-2-bounce 5s infinite;
+}
+
+.image-champagne-1 {
+    width: 15%;
+    position: absolute;
+    top: 210px;
+    right: 5%;
+    max-width: 20%;
+    transform: rotate(10deg);
+    animation: champagne-1-bounce 4s infinite;
+}
+
+.image-champagne-2 {
+    width: 15%;
+    position: absolute;
+    top: 250px;
+    right: 15%;
+    max-width: 20%;
+    transform: rotate(-5deg);
+    animation: champagne-2-bounce 7s infinite;
+}
+
+.image-flower-1 {
+    width: 12%;
+    position: absolute;
+    top: 0;
+    left: 3%;
+    max-width: 20%;
+    transform: scaleX(-1);
+    transform: rotate(180deg);
+    animation: flower-1-bounce 5s infinite;
+}
+
+.image-flower-2 {
+    width: 10%;
+    position: absolute;
+    top: 350px;
+    right: 48%;
+    max-width: 20%;
+    transform: rotate(-20deg);
+    animation: flower-2-bounce 5s infinite;
+}
+
+.image-flower-3 {
+    width: 8%;
+    position: absolute;
+    top: 350px;
+    right: 27%;
+    max-width: 20%;
+    transform: scaleX(-1);
+    animation: flower-3-bounce 5s infinite;
+}
+
+/* Footer Section */
+#footer {
+    font-size: 100%;
+    color: #6a76c6;
+    text-align: center;
+    padding: 7%;
+
+}
+
+.social-icon {
+    margin: 10px 5px;
+}
+
+
+@keyframes flower-1-bounce {
+    0%, 100% {
+        top: 0;
+        animation-timing-function: ease-in;
+    }
+    50% {
+        top: 30px;
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes flower-2-bounce {
+    0%, 100% {
+        top: 350px;
+        animation-timing-function: ease-in;
+    }
+    50% {
+        top: 310px;
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes flower-3-bounce {
+    0%, 100% {
+        top: 350px;
+        animation-timing-function: ease-out;
+    }
+    50% {
+        top: 320px;
+        animation-timing-function: ease-in;
+    }
+}
+
+@keyframes cake-bounce {
+    0%, 100% {
+        top: 0;
+        animation-timing-function: ease-in;
+    }
+    50% {
+        top: 40px;
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes heart-1-bounce {
+    0%, 100% {
+        top: 40px;
+        animation-timing-function: ease-in;
+    }
+    50% {
+        top: 70px;
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes heart-2-bounce {
+    0%, 100% {
+        top: 0;
+        animation-timing-function: ease-out;
+    }
+    50% {
+        top: 40px;
+        animation-timing-function: ease-in;
+    }
+}
+
+@keyframes champagne-1-bounce {
+    0%, 100% {
+        top: 210px;
+        animation-timing-function: ease-out;
+    }
+    50% {
+        top: 190px;
+        animation-timing-function: ease-in;
+    }
+}
+
+@keyframes champagne-2-bounce {
+    0%, 100% {
+        top: 250px;
+        animation-timing-function: ease-out;
+    }
+    50% {
+        top: 280px;
+        animation-timing-function: ease-in;
+    }
+}
